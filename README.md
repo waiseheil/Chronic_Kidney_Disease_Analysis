@@ -1,0 +1,20 @@
+# Chronic_Kidney_Disease_Analysis
+
+In this work the Chronic Kidney Disease (CKD) dataset from UCI Machine Learning repository has been used to understand how different biological markers get modified when developing CKD and to build two models to predict whether someone has CKD or not. For the former we have found that older people seem to be more prone to develop it and hypertension is a prevalent marker in such cases. For the latter, the features with the most predictive power were found to be, among others, hemoglobin, glucose levels or hypertension. The models show great potential but, as we will discuss, a more extensive dataset is needed for a reliable accuracy measure.
+
+## Motivation
+
+Chronic Kidney Disease (CKD) is characterized by having damaged kidneys that drastically reduces these organ’s filtering power. It affects approximately 9% of the world population. Kidneys do not have the ability to heal themselves and thus, it makes CKD a very dangerous condition. 
+It is thus very important for the **non-medical population** to be able to identify how particular markers get modified in the case someone develops CKD: **an early diagnosis improves the prognosis**. Conversely, **medically trained** individuals should have the means to rapidly and effectively detect if someone has CKD and to know what markers are the most important ones to predict this disease.
+For these reasons I will (i) delve into how the features that can be **measured at home** by an average person are compared between healthy and sick individuals and (ii) build a classification model to check the dataset potential for diagnosis
+
+# Dataset
+
+Data can be downloaded directly from the dataset folder in this repository or from the UCI Machine Learning source repository at: https://archive.ics.uci.edu/ml/datasets/chronic_kidney_disease. The dataset contains 400 instances and 25 features linked to a binary target label that defines whether someone has CKD or not. 11 features are numerical and 14 nominal. The dataset is imbalanced, that is, it has 250 negative (healthy) and 150 positive (CKD) instances.
+When dropping rows with missing values, the number of instances goes down to 114 negatives (healthy) and 43 positives (CKD).
+Some of the relevant features are: age, blood pressure, appetite, blood glucose, hemoglobin, ion blood concentration (Sodium and Potassium), among others. 
+ 
+# Research questions
+
+1. How do the following markers behave when someone has CKD?:
+  a. Age
