@@ -40,7 +40,7 @@ For details on data treatment and/or model interpretation/building please read t
    - 45% of people with CKD show a poor appetite 
 
 2. Machine learning modelling:
-   - Model prediction shows great potential with both decision trees and logistic regression. Logistic regression seems to yield better performance but a larger dataset is needed to correctly assess the model’s real efficiency and accuracy.
+   - Model prediction shows great potential with both decision trees and logistic regression. Logistic regression seems to yield better performance but a larger dataset is needed to correctly assess the model’s real efficiency and accuracy. Note that, since this is an imbalanced dataset, accuracy should not be taken as the only measure of prediction, but also precision and recall, as explicitely noted in the [analysis summary](./Analysis_Summary.pdf).
    - Features with the most predictive power were found to be: 
      - Hemoglobin
      - Hypertension
