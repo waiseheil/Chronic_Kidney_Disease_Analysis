@@ -10,7 +10,7 @@ For these reasons I will (i) delve into how the features that can be **measured 
 
 # Dataset
 
-Data can be downloaded directly from the dataset folder in this repository or from the UCI Machine Learning source repository at: https://archive.ics.uci.edu/ml/datasets/chronic_kidney_disease. The dataset contains 400 instances and 25 features linked to a binary target label that defines whether someone has CKD or not. 11 features are numerical and 14 nominal. The dataset is imbalanced, that is, it has 250 negative (healthy) and 150 positive (CKD) instances.
+Data can be downloaded directly from the dataset folder in this repository or from the [UCI Machine Learning source repository](https://archive.ics.uci.edu/ml/datasets/chronic_kidney_disease). The dataset contains 400 instances and 25 features linked to a binary target label that defines whether someone has CKD or not. 11 features are numerical and 14 nominal. The dataset is imbalanced, that is, it has 250 negative (healthy) and 150 positive (CKD) instances.
 When dropping rows with missing values, the number of instances goes down to 114 negatives (healthy) and 43 positives (CKD).
 Some of the relevant features are: age, blood pressure, appetite, blood glucose, hemoglobin, ion blood concentration (Sodium and Potassium), among others. 
  
@@ -18,4 +18,4 @@ Some of the relevant features are: age, blood pressure, appetite, blood glucose,
 
 1. How do the following markers behave when someone has CKD?:
 
-  a. Age
+   - Age
