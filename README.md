@@ -29,6 +29,34 @@ Some of the relevant features are: age, blood pressure, appetite, blood glucose,
 
 ## Data treatment, exploration and model building:
 
-For details on these aspects please read the [analysis summary](./Analysis_Summary.pdf)
+For details on data treatment and/or model interpretation/building please read the [analysis summary](./Analysis_Summary.pdf) and the [Jupyter notebook](./Chronic_Kidney_Disease_Project_course.ipynb). 
+
+## Conclusions
+
+1. Health markers exploration for home measurements:
+   - CKD has a larger prevalence in people between 40-80 years old
+   - Hypertension is a common signal of CKD (80% of sick patients)
+   - High glucose levels and diabetes are directly linked with CKD
+   - 45% of people with CKD show a poor appetite 
+
+2. Machine learning modelling:
+   - Model prediction shows great potential with both decision trees and logistic regression. Logistic regression seems to yield better performance but a larger dataset is needed to correctly assess the model’s real efficiency and accuracy.
+   - Features with the most predictive power were found to be: 
+     - Hemoglobin
+     - Hypertension
+     - Blood glucose
+     - Packed cell volume
+     - Creatinine levels
+     - Albumin levels
+     - Specific gravity
+
+
+
+
+
+
+
+
+
 
 
