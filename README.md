@@ -17,4 +17,5 @@ Some of the relevant features are: age, blood pressure, appetite, blood glucose,
 # Research questions
 
 1. How do the following markers behave when someone has CKD?:
+
   a. Age
