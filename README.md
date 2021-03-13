@@ -19,3 +19,16 @@ Some of the relevant features are: age, blood pressure, appetite, blood glucose,
 1. How do the following markers behave when someone has CKD?:
 
    - Age
+   - Diastolic blood pressure and hypertension
+   - Appetite
+   - Blood glucose and diabetes
+
+2. How well can we predict if someone has CKD with Decision Trees and Logistic Regression? What are the most relevant features for the models to make this prediction?
+
+**Important note:** this work does not delve into correlation-causality relation of CKD and the corresponding health markers. Abnormal values of the studied markers must be always consulted with a doctor for a correct assessment, as they may not be a consequence of an already developed CKD. 
+
+## Data treatment, exploration and model building:
+
+For details on these aspects please read the [analysis summary](./Analysis_Summary.pdf)
+
+
